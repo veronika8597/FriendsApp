@@ -1,0 +1,39 @@
+<resources>
+    <string name="Friends"></string>
+
+    <string name="friends_name">Rachel Green</string>
+    <string name="friends_zodiac">Taurus</string>
+    <string name="friends_description">Spoiled, adorable and courageous. Monica\'s BFF from high school.
+            Has worked for none of what she has.
+            On her own for the first time</string>
+
+
+    <string-array name="Character_name_txt">
+        <item>Rachel Green</item>
+        <item>Ross Geller</item>
+        <item>Monica Geller</item>
+        <item>Joey Tribbiani</item>
+        <item>Phoebe Buffay</item>
+        <item>Chandler Bing</item>
+    </string-array>
+
+
+    <string-array name="Zodiac_Of_Character_txt">
+        <item>Taurus</item>
+        <item>Libra</item>
+        <item>Aries</item>
+        <item>Capricorn</item>
+        <item>Aquarious</item>
+        <item>Aries</item>
+    </string-array>
+
+    <string-array name="Description_Of_Character_txt">
+        <item>Spoiled, adorable and courageous. Monica\'s BFF from high school. Has worked for none of what she has. On her own for the first time.</item>
+        <item>Intelligent, emotional and romantic. Monica\'s big brother. Suddenly divorced and has to face singlehood with phenomenal reluctance. Has a Ph.D in Paleontology, not that it matters…</item>
+        <item>Smart, cynical and defended. Had to work for everything she has. An assistant chef for a chic uptown restaurant. Crazy about cleaning.</item>
+        <item>Handsome, Macho and smug. Lives across the hall from Monica and Rachel. Wants to be an actor. Actually, wants to be Al Pacino. Loves women, sports, women, food, women and most of all Joey.</item>
+        <item>Sweet and flaky. Monica\'s former roommate. A masseuse and plays the guitar in the subway. A good soul.</item>
+        <item>Droll and cynical. Joey\'s best friend and roommate. Works in front of a computer doing something tedious in a claustrophobic cubicle in an office building.Survives by way of his sense of humor and snacks</item>
+    </string-array>
+
+</resources>

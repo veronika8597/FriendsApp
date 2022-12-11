@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFAD0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/F_Image"
+        android:layout_width="269dp"
+        android:layout_height="272dp"
+        android:layout_marginTop="44dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rachel" />
+
+    <TextView
+        android:id="@+id/F_Title"
+        android:layout_width="215dp"
+        android:layout_height="45dp"
+        android:fontFamily="casual"
+        android:text="@string/friends_name"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/F_Image"
+        app:layout_constraintStart_toStartOf="@+id/F_Image"
+        app:layout_constraintTop_toBottomOf="@+id/F_Image"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <TextView
+        android:id="@+id/F_Title_Zodiac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="324dp"
+        android:text="@string/friends_zodiac"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/F_Image"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/F_Image"
+        app:layout_constraintTop_toBottomOf="@+id/F_Title"
+        app:layout_constraintVertical_bias="0.689" />
+
+    <TextView
+        android:id="@+id/F_Description"
+        android:layout_width="352dp"
+        android:layout_height="193dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="44dp"
+        android:background="#DCC9FD"
+        android:fontFamily="casual"
+        android:text="@string/friends_description"
+        android:textAlignment="center"
+        android:textColor="#21005C"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/F_Image"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="@+id/F_Image"
+        app:layout_constraintTop_toBottomOf="@+id/F_Title_Zodiac"
+        app:layout_constraintVertical_bias="0.096" />
+</androidx.constraintlayout.widget.ConstraintLayout>
